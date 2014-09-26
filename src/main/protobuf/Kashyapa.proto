@@ -1,0 +1,21 @@
+package org.chinthaka.kashyapa.protobuf;
+
+
+// the java_package parameter matches the package above. But this is assuming we are keeping the package to be similar
+// to java packaging. When we start generating code for other languages using the DDL we might have to break that
+// assumption. Hence, we are declaring the java_package now itself to be future proof.
+option java_package = "org.chinthaka.kashyapa.protobuf";
+
+// by default proto_buf compiler generates code for speed. Setting this to make sure the future authors of this DDL
+// understands that.
+option optimize_for = SPEED;
+
+// DB Paramters captures the basic information needed to connect to a database. This could be re-used in various other
+// messages which require connections to a database.
+message Person {
+
+    required string name = 1;
+    required int32 age = 2;
+    required string sex = 3;
+    optional string city = 4;
+}
