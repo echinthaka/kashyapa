@@ -10,7 +10,7 @@ Having done that, one of the challenges you might face is writing a generic conv
 The Kashyapa repo will have two main items to pick from if you are working with ScalaBuff and Twitter Bijection. 
 
 <ol>
-<li> it will provide you with a project template if you want to integrate protobuf scala code generation with your sbt build. This template was extracted from the repo [here](https://github.com/jilen/srethink/tree/68fb6f8f4e4a0bdd3679519efba21768f61a1041).
+<li> it will provide you with a project template if you want to integrate protobuf scala code generation with your sbt build. This template was extracted from the repo <a href="https://github.com/jilen/srethink/tree/68fb6f8f4e4a0bdd3679519efba21768f61a1041">here</a>
 <li> it will provide you with a generic Scala reflection based method to de-construct and re-construct any protobuf generated scala object.
 </ol>
 
